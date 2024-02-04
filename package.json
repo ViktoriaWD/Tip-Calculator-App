@@ -1,0 +1,22 @@
+{
+  "name": "tip-calculator-app-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    
+      "build": "tailwindcss -i ./styles.css -o ./css/main.css",
+      "watch": "tailwindcss -i ./styles.css -o ./css/main.css --watch"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33"
+  }
+}

@@ -1,0 +1,53 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Your additional styles go here */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Playfair+Display&family=Poppins:wght@400;700&family=Rubik:wght@300;400;500&family=Space+Mono:wght@700&display=swap');
+body, h1, div {
+    margin: 0;
+    padding: 0;
+  }
+
+  input::placeholder {
+    color: hsl(184, 14%, 56%);
+  }
+
+  input {
+    width: 80px;
+  }
+
+  .custom-btn::placeholder{
+    color: hsl(186, 14%, 43%);
+    
+  }
+
+  .border-orange-600 {
+    border: 2px solid #FF7F00; /* This is an approximation of the orange-600 color in Tailwind CSS */
+}
+@media (min-width: 770px) and (max-width: 906px) {
+    .tip-container, .total-amount-container {
+      width: 100%;
+    }
+    .tip-amount, .total-amount {
+      font-size: 1.5rem;
+    }
+
+} 
+@media (min-width: 1441px){
+    .tip-container, .total-amount-container {
+      width: 100%; 
+    }
+    .tip-amount, .total-amount {
+      font-size: 2rem;
+    }
+} 
+   /* .custom-btn::placeholder:hover{
+    color: hsl(183, 100%, 15%);
+  }
+
+  .custom-btn:hover{
+    border-radius: 1px solid cyan;
+
+  }  */
